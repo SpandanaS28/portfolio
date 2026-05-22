@@ -173,113 +173,152 @@ export default function Home() {
       </section>
 
       {/* PROJECTS */}
-      <section
-        id="projects"
-        className="min-h-screen px-10 py-20 bg-slate-950"
-      >
+<section
+  id="projects"
+  className="min-h-screen px-10 py-20 bg-slate-950"
+>
 
-        <h1 className="text-5xl font-bold text-center mb-16">
-          Projects
-        </h1>
+  <h1 className="text-5xl font-bold text-center mb-16">
+    Projects
+  </h1>
 
-        <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
 
-          <FlipCard
-            frontTitle="LUNA AI"
-            frontSubtitle="Major Project"
+    {/* LUNA AI */}
+    <FlipCard
+      frontTitle="LUNA AI"
+      frontSubtitle="Major Project"
 
-            backContent={
-              <div className="space-y-4 text-sm">
+      backContent={
+        <div className="space-y-4 text-sm">
 
-                <p>
-                  • AI powered multimedia understanding platform.
-                </p>
+          <p>
+            • AI powered multimedia understanding platform.
+          </p>
 
-                <p>
-                  • Integrated YOLO, OCR, Whisper, and NLP models.
-                </p>
+          <p>
+            • Integrated YOLO, OCR, Whisper, and NLP models.
+          </p>
 
-                <p>
-                  • Real time video processing and analytics.
-                </p>
+          <p>
+            • Real time video processing and analytics.
+          </p>
 
-                <a
-                  href="https://github.com/SpandanaS28"
-                  target="_blank"
-                  className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-                >
-                  View GitHub
-                </a>
-
-              </div>
-            }
-          />
-
-          <FlipCard
-            frontTitle="Manufacturing Prediction"
-            frontSubtitle="Self Developed Project"
-
-            backContent={
-              <div className="space-y-4 text-sm">
-
-                <p>
-                  • Built ML prediction system for manufacturing data.
-                </p>
-
-                <p>
-                  • Compared Random Forest and SVM models.
-                </p>
-
-                <p>
-                  • Deployed using FastAPI and Docker.
-                </p>
-
-                <a
-                  href="https://github.com/SpandanaS28"
-                  target="_blank"
-                  className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-                >
-                  View GitHub
-                </a>
-
-              </div>
-            }
-          />
-
-          <FlipCard
-            frontTitle="Heart Disease Detection"
-            frontSubtitle="Self Developed Project"
-
-            backContent={
-              <div className="space-y-4 text-sm">
-
-                <p>
-                  • Developed ML disease prediction system.
-                </p>
-
-                <p>
-                  • Applied preprocessing and feature engineering.
-                </p>
-
-                <p>
-                  • Deployed with FastAPI backend.
-                </p>
-
-                <a
-                  href="https://github.com/SpandanaS28"
-                  target="_blank"
-                  className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-                >
-                  View GitHub
-                </a>
-
-              </div>
-            }
-          />
+          <a
+            href="https://github.com/SpandanaS28/Luna-AI"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View GitHub
+          </a>
 
         </div>
+      }
+    />
 
-      </section>
+    {/* AI CODE ASSISTANT */}
+    <FlipCard
+      frontTitle="AI Code Assistant"
+      frontSubtitle="Internship Project"
+
+      backContent={
+        <div className="space-y-4 text-sm">
+
+          <p>
+            • Developed AI powered coding assistant using Streamlit and Groq API.
+          </p>
+
+          <p>
+            • Integrated LLaMA 3.1 for code generation, debugging, and explanation.
+          </p>
+
+          <p>
+            • Implemented real time Python code execution environment.
+          </p>
+
+          <p>
+            • Built beginner friendly AI response interface using Prompt Engineering.
+          </p>
+
+          <a
+            href="https://github.com/SpandanaS28/AI-Code-Assistant"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View GitHub
+          </a>
+
+        </div>
+      }
+    />
+
+    {/* MANUFACTURING */}
+    <FlipCard
+      frontTitle="Manufacturing Prediction"
+      frontSubtitle="Self Developed Project"
+
+      backContent={
+        <div className="space-y-4 text-sm">
+
+          <p>
+            • Built ML prediction system for manufacturing datasets.
+          </p>
+
+          <p>
+            • Compared Random Forest and SVM algorithms.
+          </p>
+
+          <p>
+            • Performed preprocessing and feature engineering.
+          </p>
+
+          <a
+            href="https://github.com/SpandanaS28/Manufacturing-Prediction"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View GitHub
+          </a>
+
+        </div>
+      }
+    />
+
+    {/* HEART DISEASE */}
+    <FlipCard
+      frontTitle="Heart Disease Detection"
+      frontSubtitle="Self Developed Project"
+
+      backContent={
+        <div className="space-y-4 text-sm">
+
+          <p>
+            • Developed ML based disease prediction system.
+          </p>
+
+          <p>
+            • Applied preprocessing and feature engineering.
+          </p>
+
+          <p>
+            • Built FastAPI powered backend integration.
+          </p>
+
+          <a
+            href="https://github.com/SpandanaS28/Heart-Disease-Detection"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View GitHub
+          </a>
+
+        </div>
+      }
+    />
+
+  </div>
+
+</section>
 
       {/* SKILLS */}
       <section
