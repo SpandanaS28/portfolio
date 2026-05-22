@@ -205,7 +205,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://github.com/SpandanaS28/Luna-AI"
+            href="https://github.com/SpandanaS28/LUNA-AI-"
             target="_blank"
             className="bg-white text-black px-4 py-2 rounded-xl inline-block"
           >
@@ -273,7 +273,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://github.com/SpandanaS28/Manufacturing-Prediction"
+            href="https://github.com/SpandanaS28/capstone1-deployeds"
             target="_blank"
             className="bg-white text-black px-4 py-2 rounded-xl inline-block"
           >
@@ -305,7 +305,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://github.com/SpandanaS28/Heart-Disease-Detection"
+            href="https://github.com/SpandanaS28/capstone2-deployed"
             target="_blank"
             className="bg-white text-black px-4 py-2 rounded-xl inline-block"
           >
@@ -427,91 +427,156 @@ export default function Home() {
       </section>
 
       {/* CERTIFICATIONS */}
-      <section
-        id="certifications"
-        className="min-h-screen px-10 py-20 bg-slate-950"
-      >
+<section
+  id="certifications"
+  className="min-h-screen px-10 py-20 bg-slate-950"
+>
 
-        <h1 className="text-5xl font-bold text-center mb-16">
-          Certifications
-        </h1>
+  <h1 className="text-5xl font-bold text-center mb-16">
+    Certifications
+  </h1>
 
-        <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
+  <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
 
-          <FlipCard
-            frontTitle="Getting Started with Artificial Intelligence"
-            frontSubtitle="IBM SkillsBuild"
+    {/* CERTIFICATE 1 */}
+    <FlipCard
+      frontTitle="Getting Started with Artificial Intelligence"
+      frontSubtitle="IBM SkillsBuild"
 
-            backContent={
-              <a
-                href="https://www.credly.com/badges/76fbe305-3d61-4088-ae6b-5b4255c0e10e/public_url"
-                target="_blank"
-                className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-              >
-                View Credential
-              </a>
-            }
-          />
+      backContent={
+        <div className="space-y-3 text-sm">
 
-          <FlipCard
-            frontTitle="Artificial Intelligence Fundamentals"
-            frontSubtitle="IBM SkillsBuild"
+          <p>• Learned core concepts of Artificial Intelligence and Machine Learning.</p>
 
-            backContent={
-              <a
-                href="https://www.credly.com/badges/194e68ae-936a-480a-a860-696f6c22b4e2/public_url"
-                target="_blank"
-                className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-              >
-                View Credential
-              </a>
-            }
-          />
+          <p>• Explored AI workflows, intelligent systems, and automation.</p>
 
-          <FlipCard
-            frontTitle="Cybersecurity Fundamentals"
-            frontSubtitle="IBM SkillsBuild"
+          <p>• Understood real world AI applications across industries.</p>
 
-            backContent={
-              <a
-                href="https://www.credly.com/badges/b4e72b14-d297-496e-b12b-586d1eb066e3/public_url"
-                target="_blank"
-                className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-              >
-                View Credential
-              </a>
-            }
-          />
+          <p>• Gained foundational knowledge of modern AI technologies.</p>
 
-          <FlipCard
-            frontTitle="Generative AI in Action"
-            frontSubtitle="IBM SkillsBuild"
-
-            backContent={
-              <a
-                href="https://www.credly.com/badges/7922182a-7f71-45e1-9bd6-4cac5409f883/public_url"
-                target="_blank"
-                className="bg-white text-black px-4 py-2 rounded-xl inline-block"
-              >
-                View Credential
-              </a>
-            }
-          />
-
-          <FlipCard
-            frontTitle="Artificial Intelligence & Machine Learning Foundations"
-            frontSubtitle="TNS Foundation"
-
-            backContent={
-              <div className="text-center">
-                TNS Foundation Certification
-              </div>
-            }
-          />
+          <a
+            href="https://www.credly.com/badges/7922182a-7f71-45e1-9bd6-4cac5409f883/public_url"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View Credential
+          </a>
 
         </div>
+      }
+    />
 
-      </section>
+    {/* CERTIFICATE 2 */}
+    <FlipCard
+      frontTitle="Artificial Intelligence Fundamentals"
+      frontSubtitle="IBM SkillsBuild"
+
+      backContent={
+        <div className="space-y-3 text-sm">
+
+          <p>• Learned Artificial Intelligence models and intelligent systems.</p>
+
+          <p>• Explored Deep Learning, Neural Networks, and automation concepts.</p>
+
+          <p>• Understood ethical AI practices and responsible AI development.</p>
+
+          <p>• Gained knowledge of AI powered analytics and prediction systems.</p>
+
+          <a
+            href="https://www.credly.com/badges/194e68ae-936a-480a-a860-696f6c22b4e2/public_url"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View Credential
+          </a>
+
+        </div>
+      }
+    />
+
+    {/* CERTIFICATE 3 */}
+    <FlipCard
+      frontTitle="Cybersecurity Fundamentals"
+      frontSubtitle="IBM SkillsBuild"
+
+      backContent={
+        <div className="space-y-3 text-sm">
+
+          <p>• Learned cybersecurity fundamentals, attacks, and defense strategies.</p>
+
+          <p>• Explored authentication, network security, and cyber threats.</p>
+
+          <p>• Understood cybersecurity risk management and best practices.</p>
+
+          <p>• Gained awareness of modern cyber attack prevention techniques.</p>
+
+          <a
+            href="https://www.credly.com/badges/76fbe305-3d61-4088-ae6b-5b4255c0e10e/public_url"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View Credential
+          </a>
+
+        </div>
+      }
+    />
+
+    {/* CERTIFICATE 4 */}
+    <FlipCard
+      frontTitle="Generative AI in Action"
+      frontSubtitle="IBM SkillsBuild"
+
+      backContent={
+        <div className="space-y-3 text-sm">
+
+          <p>• Explored Generative AI models and Prompt Engineering techniques.</p>
+
+          <p>• Learned AI based content generation and intelligent automation.</p>
+
+          <p>• Understood practical applications of Generative AI systems.</p>
+
+          <p>• Worked with AI driven productivity and creative workflows.</p>
+
+          <a
+            href="https://www.credly.com/badges/b4e72b14-d297-496e-b12b-586d1eb066e3/public_url"
+            target="_blank"
+            className="bg-white text-black px-4 py-2 rounded-xl inline-block"
+          >
+            View Credential
+          </a>
+
+        </div>
+      }
+    />
+
+    {/* CERTIFICATE 5 */}
+    <FlipCard
+      frontTitle="Artificial Intelligence & Machine Learning Foundations"
+      frontSubtitle="TNS Foundation"
+
+      backContent={
+        <div className="space-y-3 text-sm">
+
+          <p>• Learned Artificial Intelligence and Machine Learning foundations.</p>
+
+          <p>• Explored supervised and unsupervised learning techniques.</p>
+
+          <p>• Understood predictive analytics and intelligent systems.</p>
+
+          <p>• Built knowledge of data driven Machine Learning workflows.</p>
+
+          <div className="bg-white text-black px-4 py-2 rounded-xl inline-block">
+            TNS Foundation Certification
+          </div>
+
+        </div>
+      }
+    />
+
+  </div>
+
+</section>
 
       {/* CONTACT */}
       <section
